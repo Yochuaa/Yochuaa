@@ -550,8 +550,9 @@ end)
 game.Players[StandOwner].Chatted:Connect(function(msg)
 	if msg == ("Stop!") then	
 
-		local A_1 = "Master Disabled My Powers!" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
+		local A_1 = "My Powers!" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
 
+		play(5930134111, true, true)
 		follow = false
 		barragepos = false
 		barragepunch = false
