@@ -1,4 +1,4 @@
--- Edited By Joshua
+-- MADE BY JoJo#2494
 -- Script Name: Nova Stand
 -- https://discord.io/legacyx
 -- https://discord.gg/jojow
@@ -90,8 +90,8 @@ game:service"RunService".RenderStepped:connect(function()
 end)
 
 game.StarterGui:SetCore("SendNotification", {
-	Title = "Nova Stand"; 
-	Text = "Remade By JoJo#2494";
+	Title = "Stand Loaded!"; 
+	Text = "Remade By Joshua";
 	Duration = 30;
 })
 
