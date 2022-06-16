@@ -1,4 +1,4 @@
--- By JoJo#2494
+-- Edited By Joshua
 -- Script Name: Nova Stand
 -- https://discord.io/legacyx
 -- https://discord.gg/jojow
@@ -521,8 +521,9 @@ end)
 game:GetService("Players").LocalPlayer.Chatted:Connect(function(msg)
 	if msg == ("Stop!") then
 		wait(.2)
-		local A_1 = "Powers Disabled!" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
+		local A_1 = "Disabled!" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
 
+		play(5930134111, true, true)
 		follow = false
 		oranear = false
 		autostomp = false
@@ -712,7 +713,7 @@ end)
 
 game.Players[StandOwner].Chatted:Connect(function(msg)
 	if msg == ("Golden Wind!") then
-		play(3429326637, false, true)
+		play(5189205004, false, true)
 	end
 end)
 
@@ -739,7 +740,7 @@ game.Players[StandOwner].Chatted:Connect(function(msg)
 		game.Workspace.Camera.CameraSubject = game.Players.LocalPlayer.Character.Humanoid
 		plr.Character.HumanoidRootPart.CFrame = game.Players[StandOwner].Character.HumanoidRootPart.CFrame * CFrame.new(0, 0, -30)
 		if Sounds == "On" then
-			play(6541267000, true, true)
+			play(2553993071, true, true)
 		end
 		wait(.8)
 		noclip = true
@@ -767,7 +768,7 @@ end)
 game.Players[StandOwner].Chatted:Connect(function(msg)
 	if msg == ("Save!") then
 
-		play(8404016542, true, true)
+		play(8322982206, true, true)
     noclip = false
 		Block = false
 		mimic = false
@@ -808,6 +809,7 @@ game.Players[StandOwner].Chatted:Connect(function(msg)
 	if msg == ("Aura!") then
 
 		game.Workspace.Camera.CameraSubject = game.Players[StandOwner].Character.Humanoid;
+		play(5152815749, true, true)
 		follow = false
 		evolvefollow = false
 		noclip = true
@@ -863,7 +865,7 @@ game.Players[StandOwner].Chatted:Connect(function(msg)
 	if msg == ("Power!") then
 
 		if Sounds == "On" then
-			play(2152227673, true, true)
+			play(8705304536, true, true)
 		end
 
 		while wait() do
@@ -1211,7 +1213,7 @@ end)
 game.Players[StandOwner].Chatted:Connect(function(msg)
 	if msg == ("ORA!") then
 
-		play(6541267000, false, true)
+		play(2553993071, false, true)
     oranear = true
 		autostomp = false
 		killtheplayer = false
@@ -1228,7 +1230,7 @@ game.Players[StandOwner].Chatted:Connect(function(msg)
 	if msg == ("Barrage!") then
 		local A_1 = "ORA! ORA! ORA! ORA!" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
 
-		play(5487424124, false, true)
+		play(7078788117, false, true)
 		follow = false
 		oranear = false
 		autostomp = false
