@@ -383,7 +383,7 @@ local rsummon = {
 
 game.Players[StandOwner].Chatted:Connect(function(msg)
 	if msg == ("Summon!") then
-		if SummonMusic == "On" and SummonMusicID == "4650451146" then
+		if SummonMusic == "On" and SummonMusicID == "5371606324" then
 			play((rsummon[math.random(1,#rsummon)]), true, true)
 		elseif SummonMusic == "On" and not SummonMusicID == "Default" then
 			play(SummonMusicID, true, true)
@@ -659,7 +659,7 @@ game.Players[StandOwner].Chatted:Connect(function(msg)
 		local A_1 = "Im Back Master!" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
 
 		if VanishAppear == "On" then
-			play(5965069559, true, true)
+			play(5371606324, true, true)
 		end
 	end
 end)
