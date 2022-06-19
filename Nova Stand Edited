@@ -959,7 +959,7 @@ local StandJump =
             if XDR == false then
                 XD = true
                 play(5817204589, true, true)
-                wait(4)
+                wait(3.3)
                 TimeEraseUI()
                 FoV()
                 Lighting()
