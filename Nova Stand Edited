@@ -715,7 +715,7 @@ local StandJump =
             local sound5 = Instance.new("Sound", CoreUI)
             sound5.Volume = 0.2
             sound5.SoundId = "rbxassetid://872436640"
-	    wait(2.3)
+	    wait(1.1)
             sound5:Play()
         
             local Image = Instance.new("ImageLabel", CoreUI)
