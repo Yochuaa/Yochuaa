@@ -388,7 +388,7 @@ game.Players[StandOwner].Chatted:Connect(function(msg)
 		elseif SummonMusic == "On" and not SummonMusicID == "Default" then
 			play(SummonMusicID, true, true)
 		end
-		local A_1 = "I'm Here, Master" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
+		local A_1 = "Star Platinum!" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
 		follow = true
 		barragepos = false
 		oranear = false
@@ -656,7 +656,7 @@ game.Players[StandOwner].Chatted:Connect(function(msg)
 		game.Workspace.Camera.CameraSubject = game.Players.LocalPlayer.Character.Humanoid
 		wait()
 
-		local A_1 = "Im Back Master!" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
+		local A_1 = "Star Platinum!" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
 
 		if VanishAppear == "On" then
 			play(5371606324, true, true)
