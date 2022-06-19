@@ -550,7 +550,7 @@ end)
 game.Players[StandOwner].Chatted:Connect(function(msg)
 	if msg == ("Stop!") then	
 
-		local A_1 = "My Powers!" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
+		local A_1 = "NOOOOOO!" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
 
 		play(5930134111, true, true)
 		follow = false
@@ -1854,7 +1854,7 @@ end)
 game.Players[StandOwner].Chatted:Connect(function(msg)
 	if msg == ("Requiem!") then
 	
-	        play(5509432505, true ,true)
+	        play(5807033225, true ,true)
 		
 		local A_1 = "Korega...Requiem...Da" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
 
