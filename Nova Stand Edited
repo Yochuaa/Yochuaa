@@ -791,7 +791,7 @@ local StandJump =
             XD:Play()
             XD.TimePosition = 0.15
             XD.Looped = false
-            XD:AdjustSpeed(1.1)
+            XD:AdjustSpeed(2.0)
         end
         
         function AddVelocity(Vel, Char)
