@@ -713,8 +713,8 @@ local StandJump =
         
         function TimeEraseUI()
             local sound5 = Instance.new("Sound", CoreUI)
-            sound5.Volume = 0.1
-            sound5.SoundId = "rbxassetid://6546128175"
+            sound5.Volume = 0.2
+            sound5.SoundId = "rbxassetid://872436640"
             sound5:Play()
         
             local Image = Instance.new("ImageLabel", CoreUI)
@@ -959,7 +959,7 @@ local StandJump =
             if XDR == false then
                 XD = true
                 play(5817204589, true, true)
-                wait(2.5)
+                wait(2.3)
                 TimeEraseUI()
                 FoV()
                 Lighting()
