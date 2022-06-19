@@ -945,7 +945,7 @@ local StandJump =
         end
         
         local bro = false
-        local TimeErase, CanCel = "Za warudo!", "Za warudo!"
+        local TimeErase, CanCel = "ZA WARUDO!", "ZA WARUDO!"
         local XD = false
         LocalPlayer.Chatted:Connect(function(MSG)
             if MSG:sub(1, 11) == TimeErase and XD == false and not Poter.IsPlaying then
@@ -959,7 +959,7 @@ local StandJump =
             if XDR == false then
                 XD = true
                 play(5817204589, true, true)
-                wait(3)
+                wait(2.5)
                 TimeEraseUI()
                 FoV()
                 Lighting()
