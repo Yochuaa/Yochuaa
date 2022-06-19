@@ -958,8 +958,8 @@ local StandJump =
         function XDDDD(XDR)
             if XDR == false then
                 XD = true
-                play(2404992854, true, true)
-                wait(2)
+                play(5817204589, true, true)
+                wait(4)
                 TimeEraseUI()
                 FoV()
                 Lighting()
