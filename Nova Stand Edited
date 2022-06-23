@@ -791,7 +791,7 @@ local StandJump =
             XD:Play()
             XD.TimePosition = 0.15
             XD.Looped = false
-            XD:AdjustSpeed(5.0)
+            XD:AdjustSpeed(1.0)
         end
         
         function AddVelocity(Vel, Char)
@@ -945,7 +945,7 @@ local StandJump =
         end
         
         local bro = false
-        local TimeErase, CanCel = "ZA WARUDO!", "ZA WARUDO!"
+        local TimeErase, CanCel = "STAR PLATINUM! ZA WARUDO!", "STAR PLATINUM! ZA WARUDO!"
         local XD = false
         LocalPlayer.Chatted:Connect(function(MSG)
             if MSG:sub(1, 11) == TimeErase and XD == false and not Poter.IsPlaying then
