@@ -779,7 +779,7 @@ local StandJump =
                 RigIdle:Play()
             else
                 InTimeErase = false
-                WalkSpeed = true
+                WalkSpeed = false
                 workspace.Camera.CameraSubject =  OldChar.Humanoid
                 OldChar.HumanoidRootPart.CFrame =  workspace:FindFirstChild(LocalPlayer.Name.."StringKOD").Idaro.HumanoidRootPart.CFrame
                 workspace:FindFirstChild(LocalPlayer.Name.."StringKOD"):Destroy()
@@ -791,7 +791,7 @@ local StandJump =
             XD:Play()
             XD.TimePosition = 0.15
             XD.Looped = false
-            XD:AdjustSpeed(1.0)
+            XD:AdjustSpeed(5.0)
         end
         
         function AddVelocity(Vel, Char)
