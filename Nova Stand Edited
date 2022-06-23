@@ -778,7 +778,7 @@ local StandJump =
                 WalkSpeed = true
                 RigIdle:Play()
             else
-                InTimeErase = true
+                InTimeErase = false
                 WalkSpeed = true
                 workspace.Camera.CameraSubject =  OldChar.Humanoid
                 OldChar.HumanoidRootPart.CFrame =  workspace:FindFirstChild(LocalPlayer.Name.."StringKOD").Idaro.HumanoidRootPart.CFrame
