@@ -1852,11 +1852,11 @@ game.Players[StandOwner].Chatted:Connect(function(msg)
 end)
 
 game.Players[StandOwner].Chatted:Connect(function(msg)
-	if msg == ("Requiem!") then
+	if msg == ("JUDGE!") then
 	
 	        play(5807033225, true ,true)
 		
-		local A_1 = "Korega...Requiem...Da" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
+		local A_1 = "I SHALL JUDGE YOU!" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
 
 		wait(2.5)
 
