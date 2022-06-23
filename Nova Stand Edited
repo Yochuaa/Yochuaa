@@ -46,7 +46,7 @@ gmt.__namecall =
     return old(self, ...)
 end)
 --// [Creating Gui]
-local MainUI = UILibrary.Load("Nova Gui Stand")
+local MainUI = UILibrary.Load("Stand Gui UwU")
 --// [Tabs]
 local FirstPage = MainUI.AddPage("Home!")
 local SecondPage = MainUI.AddPage("Local Player!")
@@ -945,7 +945,7 @@ local StandJump =
         end
         
         local bro = false
-        local TimeErase, CanCel = "STAR PLATINUM! ZA WARUDO!", "STAR PLATINUM! ZA WARUDO!"
+        local TimeErase, CanCel = "ZA WARUDO!", "ZA WARUDO!"
         local XD = false
         LocalPlayer.Chatted:Connect(function(MSG)
             if MSG:sub(1, 11) == TimeErase and XD == false and not Poter.IsPlaying then
