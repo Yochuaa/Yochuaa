@@ -46,7 +46,7 @@ gmt.__namecall =
     return old(self, ...)
 end)
 --// [Creating Gui]
-local MainUI = UILibrary.Load("Nova Gui Stand")
+local MainUI = UILibrary.Load("Nova Edited UwU")
 --// [Tabs]
 local FirstPage = MainUI.AddPage("Home!")
 local SecondPage = MainUI.AddPage("Local Player!")
@@ -778,7 +778,7 @@ local StandJump =
                 WalkSpeed = true
                 RigIdle:Play()
             else
-                InTimeErase = true
+                InTimeErase = false
                 WalkSpeed = false
                 workspace.Camera.CameraSubject =  OldChar.Humanoid
                 OldChar.HumanoidRootPart.CFrame =  workspace:FindFirstChild(LocalPlayer.Name.."StringKOD").Idaro.HumanoidRootPart.CFrame
@@ -791,7 +791,7 @@ local StandJump =
             XD:Play()
             XD.TimePosition = 0.15
             XD.Looped = false
-            XD:AdjustSpeed(1.0)
+            XD:AdjustSpeed(1.1)
         end
         
         function AddVelocity(Vel, Char)
@@ -959,7 +959,7 @@ local StandJump =
             if XDR == false then
                 XD = true
                 play(5817204589, true, true)
-                wait(2.2)
+                wait(2)
                 TimeEraseUI()
                 FoV()
                 Lighting()
@@ -999,7 +999,7 @@ local StandJump =
             end)
         end
         
-        +
+        
         Jump(OldChar.Humanoid)
         
         LocalPlayer.CharacterAdded:Connect(function(Character)
