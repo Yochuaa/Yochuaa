@@ -778,7 +778,7 @@ local StandJump =
                 WalkSpeed = true
                 RigIdle:Play()
             else
-                InTimeErase = true
+                InTimeErase = false
                 WalkSpeed = false
                 workspace.Camera.CameraSubject =  OldChar.Humanoid
                 OldChar.HumanoidRootPart.CFrame =  workspace:FindFirstChild(LocalPlayer.Name.."StringKOD").Idaro.HumanoidRootPart.CFrame
@@ -945,7 +945,7 @@ local StandJump =
         end
         
         local bro = false
-        local TimeErase, CanCel = "ZA WARUDO!", "ZA WARUDO!"
+        local TimeErase, CanCel = "Time erase!", "Time erase!"
         local XD = false
         LocalPlayer.Chatted:Connect(function(MSG)
             if MSG:sub(1, 11) == TimeErase and XD == false and not Poter.IsPlaying then
@@ -959,7 +959,7 @@ local StandJump =
             if XDR == false then
                 XD = true
                 play(5817204589, true, true)
-                wait(2)
+                wait(2.2)
                 TimeEraseUI()
                 FoV()
                 Lighting()
