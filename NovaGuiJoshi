@@ -773,7 +773,7 @@ local StandJump =
                 RigIdle.Looped = true
                 RigIdle.Priority = Enum.AnimationPriority.Action
                 RigWalk = NewCharacter:WaitForChild("Humanoid"):LoadAnimation(WalkAnimation)
-                RigWalk.Looped = true
+                RigWalk.Looped = false
                 RigWalk.Priority = Enum.AnimationPriority.Action
                 WalkSpeed = true
                 RigIdle:Play()
