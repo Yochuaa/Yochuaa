@@ -46,7 +46,7 @@ gmt.__namecall =
     return old(self, ...)
 end)
 --// [Creating Gui]
-local MainUI = UILibrary.Load("Stand Gui UwU")
+local MainUI = UILibrary.Load("Nova Gui Stand")
 --// [Tabs]
 local FirstPage = MainUI.AddPage("Home!")
 local SecondPage = MainUI.AddPage("Local Player!")
