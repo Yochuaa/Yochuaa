@@ -775,11 +775,11 @@ local StandJump =
                 RigWalk = NewCharacter:WaitForChild("Humanoid"):LoadAnimation(WalkAnimation)
                 RigWalk.Looped = true
                 RigWalk.Priority = Enum.AnimationPriority.Action
-                WalkSpeed = true
+                WalkSpeed = false
                 RigIdle:Play()
             else
-                InTimeErase = true
-                WalkSpeed = true
+                InTimeErase = false
+                WalkSpeed = false
                 workspace.Camera.CameraSubject =  OldChar.Humanoid
                 OldChar.HumanoidRootPart.CFrame =  workspace:FindFirstChild(LocalPlayer.Name.."StringKOD").Idaro.HumanoidRootPart.CFrame
                 workspace:FindFirstChild(LocalPlayer.Name.."StringKOD"):Destroy()
