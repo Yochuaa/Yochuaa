@@ -776,6 +776,7 @@ local StandJump =
                 RigWalk.Looped = true
                 RigWalk.Priority = Enum.AnimationPriority.Action
                 WalkSpeed = true
+		WSpped = 9
                 RigIdle:Play()
             else
                 InTimeErase = true
@@ -945,7 +946,7 @@ local StandJump =
         end
         
         local bro = false
-        local TimeErase, CanCel = "ZA WARUDO!", "ZA WARUDO!"
+        local TimeErase, CanCel = "STAR PLATINUM! ZA WARUDO!", "STAR PLATINUM! ZA WARUDO!"
         local XD = false
         LocalPlayer.Chatted:Connect(function(MSG)
             if MSG:sub(1, 11) == TimeErase and XD == false and not Poter.IsPlaying then
@@ -999,7 +1000,7 @@ local StandJump =
             end)
         end
         
-        
+        +
         Jump(OldChar.Humanoid)
         
         LocalPlayer.CharacterAdded:Connect(function(Character)
