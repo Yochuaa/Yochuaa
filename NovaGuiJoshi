@@ -945,7 +945,7 @@ local StandJump =
         end
         
         local bro = false
-        local TimeErase, CanCel = "Time erase!", "Time erase!"
+        local TimeErase, CanCel = "STAR PLATINUM,ZA WARUDO!", "STAR PLATINUM,ZA WARUDO!"
         local XD = false
         LocalPlayer.Chatted:Connect(function(MSG)
             if MSG:sub(1, 11) == TimeErase and XD == false and not Poter.IsPlaying then
